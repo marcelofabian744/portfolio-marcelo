@@ -1,0 +1,84 @@
+h1{color: rgb(32, 15, 15);}
+body{font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-; margin:10;}
+nav{position: fixed; 
+    top: 0; 
+    width: 100% ; 
+    color: blue; 
+    border: 2cap; 
+    display: inline-block;
+background-color: white;
+box-shadow: 0 0 05px black; text-align: center;}  
+.menu-item {text-decoration: none;
+color: #333;
+padding: 20px;
+display: -ms-inline-grid;
+}
+.menu-item:hover{background-color: blueviolet; transition: all 0.3s ease-in-out;}
+h1 {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+h3{
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 20px;
+margin-bottom: 20px;
+}
+section {
+    padding: 20px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+#acerca-de-mi{text-align:justify;}
+/*
+selector de etiqueta: h1{}
+selector de clase: .clase{}
+selector de ID: #id{}
+*/
+#Habilidades ul{list-style: none;
+    padding: 0;
+    margin: 0;}
+#Habilidades li {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+#Experiencia ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#Experiencia ul li{ margin-bottom: 10px;}
+#proyectos ul{list-style: none;
+    padding: 0;
+    margin: 0;}
+#proyectos ul li a {text-decoration: none;color: black;display: inline-block;}
+#proyectos ul li a:hover{text-decoration: underline;}
+#sociales {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  #sociales li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+  }
+  
+  .fa {
+    color: blue;
+    text-decoration: solid;
+    margin-left: 0px;}
+    footer {
+        background-color: #291e1e;
+        color: #810707;
+        text-align: center;
+        padding: 20px;}
